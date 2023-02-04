@@ -1,0 +1,80 @@
+body{
+    /* margin: 0; */
+    margin: 100px 50px 50px 80px;
+    min-height: 100vh;
+    background-color:black;
+    color:whitesmoke;
+    text-align:start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.heading{
+    color:whitesmoke;
+    line-height: 10px;
+}
+.heading>h2{
+    color: rgb(29, 189, 29);
+    line-height: 10px;
+}
+#statement{
+    color: rgba(245, 245, 245, 0.712);
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: 15px;
+}
+
+#button{
+    background-color: rgb(64, 224, 64);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+    font-weight: bold;
+}
+#button:hover{
+    background-color: rgb(29, 189, 29);
+}
+.btn2{
+    margin-right: 100px;
+}
+
+/* input{
+    margin-top: 40px;
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(105, 104, 104);
+    color: rgb(29, 189, 29);
+    text-shadow: 0 0 2px rgba(245, 245, 245, 0.568);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: large;
+    user-select: none;
+}
+input::placeholder{
+    color: rgba(245, 245, 245, 0.555);
+    font-size: medium; 
+} */
+.gen-password{
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(105, 104, 104);
+    color:  rgb(29, 189, 29); 
+    text-shadow: 0 0 2px rgba(245, 245, 245, 0.568);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+}
